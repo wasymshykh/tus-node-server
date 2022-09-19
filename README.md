@@ -7,7 +7,7 @@ tus is a new open protocol for resumable uploads built on HTTP. This is the [tus
 ## Installation
 
 ```bash
-$ npm install tus-node-server
+$ npm i @ws-tus-node/tus-server
 ```
 
 ## Flexible Data Stores

@@ -43,6 +43,8 @@ switch (data_store) {
     default:
         server.datastore = new FileStore({
             path: '/files',
+            // configstorePath: path.join(__dirname, 'store')
+            configstorePath: require('os').tmpdir()
         });
 }
 
